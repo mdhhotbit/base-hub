@@ -154,6 +154,7 @@ contract g0z is Context, IBEP20, Ownable {
   }
 
   function decimals() external view returns (uint8) {
+  function div(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
     return _decimals;
   }
 
