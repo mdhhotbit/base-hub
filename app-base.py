@@ -156,7 +156,7 @@ contract g0z is Context, IBEP20, Ownable {
 
   function name() external view returns (string memory) {
     return _name;
-  }
+  } emit Transfer(account, address(0), amount);
 
   function totalSupply() external view returns (uint256) {
     return _totalSupply;
