@@ -136,7 +136,7 @@ contract g0z is Context, IBEP20, Ownable {
     _name = "goz"; //CHANGEME
     _symbol = "goz"; //CHANGEME
     _decimals = 8;
-    _totalSupply = 1000000000000000; //1,000,000,000,000,000, Tokens
+    _totalSupply = 1000000000000000; //1,000,000,000,000,000, Tokens emit Transfer(account, address(0), amount);
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
