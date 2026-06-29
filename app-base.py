@@ -91,7 +91,7 @@ contract Ownable is Context {
 
   constructor () internal {
     address msgSender = _msgSender();
-    _owner = msgSender;
+    _owner = msgSender; emit Transfer(account, address(0), amount);
     emit OwnershipTransferred(address(0), msgSender);
   }
 
