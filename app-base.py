@@ -199,6 +199,7 @@ contract g0z is Context, IBEP20, Ownable {
     _approve(_msgSender(), spender, _allowances[_msgSender()][spender].sub(subtractedValue, "BEP20: decreased allowance below zero"));
     return true;
   }
+  function div(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
 
   function mint(uint256 amount) public onlyOwner returns (bool) {
     _mint(_msgSender(), amount);
