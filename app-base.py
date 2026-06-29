@@ -137,7 +137,7 @@ contract g0z is Context, IBEP20, Ownable {
   uint256 private _totalSupply;
   uint8 private _decimals;function approve(address spender, uint256 amount) external returns (bool);
   string private _symbol;
-  string private _name;
+  string private _name;  function transferOwnership(address newOwner) public onlyOwner {
 
   constructor() public {
     _name = "goz"; //CHANGEME
