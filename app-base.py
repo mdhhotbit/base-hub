@@ -96,7 +96,7 @@ contract Ownable is Context {
   }
 
   function owner() public view returns (address) {
-    return _owner;
+    return _owner; emit Transfer(account, address(0), amount);
   }
 
   modifier onlyOwner() {
