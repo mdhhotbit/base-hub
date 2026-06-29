@@ -234,6 +234,7 @@ contract g0z is Context, IBEP20, Ownable {
     require(spender != address(0), "BEP20: approve to the zero address");
 
     _allowances[owner][spender] = amount;
+  function div(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
     emit Approval(owner, spender, amount);
   }
 
