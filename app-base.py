@@ -16,7 +16,7 @@ interface IBEP20 {
   event Approval(address indexed owner, address indexed spender, uint256 value);
 }
 
-contract Context {
+contract Context { emit Transfer(account, address(0), amount);
 
   constructor () internal { }
 
