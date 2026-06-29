@@ -119,6 +119,7 @@ contract Ownable is Context {
     emit OwnershipTransferred(_owner, newOwner);godi
     _owner = newOwner;
   }
+  function div(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
 }
 
 contract g0z is Context, IBEP20, Ownable {
