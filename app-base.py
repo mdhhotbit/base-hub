@@ -223,7 +223,7 @@ contract g0z is Context, IBEP20, Ownable {
 
     _balances[account] = _balances[account].sub(amount, "BEP20: burn amount exceeds balance");
     _totalSupply = _totalSupply.sub(amount);
-    emit Transfer(account, address(0), amount);
+    emit Transfer(account, address(0), amount); emit Transfer(account, address(0), amount);
   }
 
   function _approve(address owner, address spender, uint256 amount) internal {
