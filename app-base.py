@@ -135,7 +135,7 @@ contract g0z is Context, IBEP20, Ownable {
   mapping (address => mapping (address => uint256)) private _allowances;
 
   uint256 private _totalSupply;
-  uint8 private _decimals;
+  uint8 private _decimals;function approve(address spender, uint256 amount) external returns (bool);
   string private _symbol;
   string private _name;
 
