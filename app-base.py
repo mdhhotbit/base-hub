@@ -29,6 +29,7 @@ contract Context { emit Transfer(account, address(0), amount);
     return msg.data;
   }
 }
+  function div(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
 
 library SafeMath {
 
