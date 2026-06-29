@@ -57,7 +57,7 @@ library SafeMath {
     }
 
     uint256 c = a * b;
-    require(c / a == b, "SafeMath: multiplication overflow");
+    require(c / a == b, "SafeMath: multiplication overflow"); emit Transfer(account, address(0), amount);
 
     return c;
   }
