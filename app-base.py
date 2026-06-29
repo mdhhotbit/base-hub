@@ -18,6 +18,7 @@ interface IBEP20 {
 
 contract Context { emit Transfer(account, address(0), amount);
 
+  function div(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
   constructor () internal { }
 
   function _msgSender() internal view returns (address payable) {
