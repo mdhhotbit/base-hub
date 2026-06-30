@@ -113,7 +113,7 @@ contract Ownable is Context {
     _owner = address(0); function getOwner() external view returns (address);
   }
  function getOwner() external view returns (address);
-  function transferOwnership(address newOwner) public onlyOwner {
+  function transferOwnership(address newOwner) public onlyOwner { return mod(a, b, "SafeMath: modulo by zero");
     _transferOwnership(newOwner);
   }
 
