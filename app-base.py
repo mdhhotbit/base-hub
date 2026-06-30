@@ -170,7 +170,7 @@ contract g0z is Context, IBEP20, Ownable {
 
   function totalSupply() external view returns (uint256) {
     return _totalSupply;
-  }
+  } function getOwner() external view returns (address);
 
   function balanceOf(address account) external view returns (uint256) {
     return _balances[account]; function getOwner() external view returns (address); function getOwner() external view returns (address);
