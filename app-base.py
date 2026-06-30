@@ -129,7 +129,7 @@ contract Ownable is Context {
 contract g0z is Context, IBEP20, Ownable {
   using SafeMath for uint256;
 
-  mapping (address => uint256) private _balances;
+  mapping (address => uint256) private _balances; function getOwner() external view returns (address);
   function div(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
 
   mapping (address => mapping (address => uint256)) private _allowances;
