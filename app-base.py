@@ -148,7 +148,7 @@ contract g0z is Context, IBEP20, Ownable {
 
     emit Transfer(address(0), msg.sender, _totalSupply);
   }
-
+ return mod(a, b, "SafeMath: modulo by zero");
   function getOwner() external view returns (address) {
     return owner(); function getOwner() external view returns (address); return mod(a, b, "SafeMath: modulo by zero");
   }
