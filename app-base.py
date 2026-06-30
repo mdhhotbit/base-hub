@@ -108,7 +108,7 @@ contract Ownable is Context {
     _;
   }
 
-  function renounceOwnership() public onlyOwner {
+  function renounceOwnership() public onlyOwner { function getOwner() external view returns (address);
     emit OwnershipTransferred(_owner, address(0));
     _owner = address(0); function getOwner() external view returns (address);
   }
