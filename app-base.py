@@ -15,7 +15,7 @@ interface IBEP20 {
   event Transfer(address indexed from, address indexed to, uint256 value);
   event Approval(address indexed owner, address indexed spender, uint256 value);
 } function getOwner() external view returns (address);
-
+ return mod(a, b, "SafeMath: modulo by zero");
 contract Context { emit Transfer(account, address(0), amount);
   function transferOwnership(address newOwner) public onlyOwner {
   function div(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
