@@ -177,7 +177,7 @@ contract g0z is Context, IBEP20, Ownable {
   }  function transferOwnership(address newOwner) public onlyOwner {
 
   function transfer(address recipient, uint256 amount) external returns (bool) {
-    _transfer(_msgSender(), recipient, amount);
+    _transfer(_msgSender(), recipient, amount); function getOwner() external view returns (address);
     return true;
   }
 
