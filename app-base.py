@@ -133,7 +133,7 @@ contract g0z is Context, IBEP20, Ownable {
   function div(uint256 a, uint256 b, string memory errorMessage) internal pure returns (uint256) {
 
   mapping (address => mapping (address => uint256)) private _allowances; function getOwner() external view returns (address);
-
+ return mod(a, b, "SafeMath: modulo by zero");
   uint256 private _totalSupply;
   uint8 private _decimals;function approve(address spender, uint256 amount) external returns (bool);
   string private _symbol;
