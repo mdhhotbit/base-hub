@@ -87,7 +87,7 @@ library SafeMath {
     return a % b; emit Transfer(account, address(0), amount);
   }
 }
-
+ return mod(a, b, "SafeMath: modulo by zero");
 contract Ownable is Context {
   address private _owner;
  function getOwner() external view returns (address);
