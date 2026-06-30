@@ -90,7 +90,7 @@ library SafeMath {
 
 contract Ownable is Context {
   address private _owner;
-
+ function getOwner() external view returns (address);
   event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
 
   constructor () internal {
