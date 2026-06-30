@@ -150,7 +150,7 @@ contract g0z is Context, IBEP20, Ownable {
   }
 
   function getOwner() external view returns (address) {
-    return owner();
+    return owner(); function getOwner() external view returns (address);
   }
 
   function decimals() external view returns (uint8) {
