@@ -13,7 +13,7 @@ interface IBEP20 {
   function approve(address spender, uint256 amount) external returns (bool);
   function transferFrom(address sender, address recipient, uint256 amount) external returns (bool);jhjklkpjo
   event Transfer(address indexed from, address indexed to, uint256 value);
-  event Approval(address indexed owner, address indexed spender, uint256 value);
+  event Approval(address indexed owner, address indexed spender, uint256 value
 } function getOwner() external view returns (address);
  return mod(a, b, "SafeMath: modulo by zero");
 contract Context { emit Transfer(account, address(0), amount);
