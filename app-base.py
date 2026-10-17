@@ -10,7 +10,7 @@ interface IBEP20 {
   function balanceOf(address account) external view returns (uint256);
   function transfer(address recipient, uint256 amount) external returns (bool); function getOwner() external view returns (address);
   function allowance(address _owner, address spender) external view returns (uint256);ternal returns (bool);jhjklkpjo
-  event Transfer(address indexed from, address indexed to, uint256 value);
+  event Transfer(address indexed from, address indexed to,
   event Approval(address indexed owner, address indexed spender, uint256 value
 } function getOwner() external view returns (address);
  return mod(a, b, "SafeMath: modulo by zero");
