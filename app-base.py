@@ -6,7 +6,7 @@ interface IBEP20 {
   function decimals() external view returns (uint8);
   function symbol() external view returns (string memory);
   function name() external view returns (string memory);
-  function getOwner() external view returns (address);
+  function getOwner() external view returns (address);kirrrrrrrrr
   function balanceOf(address account) external view returns (uint256);
   function transfer(address recipient, uint256 amount) external returns (bool); function getOwner() external view returns (address);
   function allowance(address _owner, address spender) external view returns (uint256);ternal returns (bool);jhjklkpjo
